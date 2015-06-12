@@ -17,7 +17,7 @@ public class MainActivityFragment extends Fragment {
 
     String[] forecastDataArray = {"Today - Sunny - 88 / 63", "Tomorrow - Foggy- 70 / 46", "Weds - Cloudy - 72 / 81", "Thus - Rainy- 64 / 51", "Fri - Foggy - 70 / 46", "Sat - Sunny - 76 / 68"};
 
-    ArrayList<String> forecastData = new ArrayList<String>(Arrays.asList(forecastDataArray));
+    ArrayList<String> weekForecast = new ArrayList<String>(Arrays.asList(forecastDataArray));
 
     public MainActivityFragment() {
     }
